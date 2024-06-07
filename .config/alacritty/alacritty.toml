@@ -1,0 +1,41 @@
+# import = ["~/.config/alacritty/themes/themes/tokyo-night.toml"]   
+[font]
+size = 16.5
+[font.bold]
+family = "JetBrains Mono"
+style = "Heavy"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Heavy Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Medium Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Medium"
+[window]
+startup_mode= "Windowed"
+opacity = 0.85
+blur = true
+[shell]
+program = "/usr/bin/zsh"
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+[cursor]
+vi_mode_style = "None"
+blink_interval = 750
+blink_timeout = 5
+unfocused_hollow = false
+thickness = 0.15
+[env]
+TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR = "1.0"
+[mouse]
+hide_when_typing = false
+[selection]
+save_to_clipboard = true
+
